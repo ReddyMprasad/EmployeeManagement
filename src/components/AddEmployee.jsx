@@ -8,7 +8,7 @@ const AddEmployee = () => {
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [designation, setDesignation] = useState("");
-  const [isSubmitted, setIsSubmitted] = useState(false); 
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const firstNameData = (e) => {
     setFirstName(e.target.value);
